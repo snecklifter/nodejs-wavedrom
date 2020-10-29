@@ -2,13 +2,13 @@
 
 %global module_name wavedrom
 
-Name:       nodejs-wavedrom
+Name:       nodejs-%{module_name}
 Version:    2.6.8
 Release:    1%{?dist}
 Summary:    Digital timing diagram in your browser
 License:    MIT
 URL:        https://www.npmjs.com/package/%{module_name}
-Source0:    https://registry.npmjs.org/%{module_name}/-/wavedrom-2.6.8.tgz
+Source0:    https://registry.npmjs.org/%{module_name}/-/%{module_name}-${version}.tgz
 
 BuildArch:  noarch
 
